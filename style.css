@@ -1,0 +1,161 @@
+::-webkit-scrollbar{
+    display:none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:linear-gradient(to right ,black,rgb(41, 0, 0));
+} 
+.heading{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.head{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(11, 116, 214);
+    animation: float 1s linear infinite alternate ;
+    border-bottom: white 4px solid;
+}
+@keyframes float{
+    from{
+        transform: translateY(-20px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.container{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    gap: 10vh;
+}
+.itemcontain{
+    width: fit-content;
+    padding: 20px;
+}
+.quote{
+    width: fit-content;
+    font-size: 30px;
+    color: #ddd;
+    margin: 10px;
+}
+.name{
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    max-height: fit-content;
+}
+.naadd{
+    max-height: 0;
+    overflow: hidden;
+}
+.postactive{
+    height: 30vh;
+    background-image: url(./imagen/naruto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: 10px;
+    box-shadow: rgb(94, 92, 92) 1px 1px 10px ;
+    border-radius: 8px;
+}
+.postactive2{
+    background-image: url(./imagen/kushina.jpg);
+    background-position: top;
+}
+.postactive3{
+    background-image: url(./imagen/minato.jpg);
+}
+.postactive4{
+    background-image: url(./imagen/jiraiya.jpg);
+}
+.postactive5{
+    background-image: url(./imagen/tsunade.jpg);
+}
+.postactive6{
+    background-image: url(./imagen/orochimaru.jpg);
+}
+.postactive7{
+    background-image: url(./imagen/sakura.jpg);
+    background-position: top;
+}
+.postactive8{
+    background-image: url(./imagen/ino.jpg);
+}
+.postactive9{
+    background-image: url(./imagen/sai.jpg);
+}
+.postactive10{
+    background-image: url(./imagen/mighty.jpg);
+}
+.postactive11{
+    background-image: url(./imagen/lee.jpg);
+    background-position: left;
+}
+.postactive12{
+    background-image: url(./imagen/hinata.jpg);
+}
+.postactive13{
+    background-image: url(./imagen/sasuke.jpg);
+    background-position: top;
+}
+.postactive14{
+    background-image: url(./imagen/itachi.jpg);
+    background-position: top;
+}
+.postactive15{
+    background-image: url(./imagen/madara.jpg);
+    background-position: top;
+}
+.postactive16{
+    background-image: url(./imagen/obito.jpg);
+}
+.postactive17{
+    background-image: url(./imagen/kakashi.jpg);
+}
+.postactive18{
+    background-image: url(./imagen/bee.jpg);
+}
+.postactive19{
+    background-image: url(./imagen/gara.jpg);
+}
+.postactive20{
+    background-image: url(./imagen/pain.jpg);
+}
+.rulecontainer{
+    margin-top: 5vh;
+    padding: 20px;
+}
+.point{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+h3{
+    color: #615e5e;
+    font-weight: bolder;
+}
+.pointer{
+    color: rgb(223, 190, 140);
+}
+p{
+    color: rgb(218, 32, 32);
+    font-weight: bold;
+}
